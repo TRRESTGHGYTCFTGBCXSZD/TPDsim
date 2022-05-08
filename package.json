@@ -1,11 +1,11 @@
 {
-    "name": "puyosim",
+    "name": "TPDsim",
     "version": "4.3.0",
-    "description": "The code behind the best Puyo Puyo chain simulator.",
+    "description": "Taisen Puzzle Dama Simulator - Adds New Garbage Blocks, Such as Colored Garbage Blocks.",
     "license": "MIT",
     "author": {
-        "name": "Nick Woronekin",
-        "url": "https://github.com/nickworonekin"
+        "name": "private",
+        "url": "https://github.com/TRRESTGHGYTCFTGBCXSZD"
     },
     "scripts": {
         "build": "parcel build index.html",
@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/puyonexus/puyosim.git"
+        "url": "https://github.com/TRRESTGHGYTCFTGBCXSZD/TPDsim.git"
     },
     "dependencies": {
         "@types/clipboard": "^2.0.1",
