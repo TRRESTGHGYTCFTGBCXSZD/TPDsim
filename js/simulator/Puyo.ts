@@ -40,7 +40,12 @@ export class Puyo {
       p === PuyoType.ClearedPurple ||
       p === PuyoType.ClearedNuisance ||
       p === PuyoType.ClearedPoint ||
-      p === PuyoType.ClearedSun
+      p === PuyoType.ClearedSun ||
+      p === PuyoType.NuisanceRed ||
+      p === PuyoType.NuisanceGreen ||
+      p === PuyoType.NuisanceBlue ||
+      p === PuyoType.NuisanceYellow ||
+      p === PuyoType.NuisancePurple
     );
   }
 
@@ -60,7 +65,12 @@ export class Puyo {
     return (
       this.puyo === PuyoType.Nuisance ||
       this.puyo === PuyoType.Hard ||
-      this.puyo === PuyoType.Point
+      this.puyo === PuyoType.Point ||
+      this.puyo === PuyoType.NuisanceRed ||
+      this.puyo === PuyoType.NuisanceGreen ||
+      this.puyo === PuyoType.NuisanceBlue ||
+      this.puyo === PuyoType.NuisanceYellow ||
+      this.puyo === PuyoType.NuisancePurple 
     );
   }
 

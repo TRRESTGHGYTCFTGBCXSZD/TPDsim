@@ -45,6 +45,7 @@ export class PuyoDisplay {
 
   // Finally, we will list the available puyo skins here
   readonly puyoSkins = [
+    { id: "tokkae", image: "tokkae.png" },
     { id: "classic", image: "classic.png" },
     { id: "puyo4", image: "puyo4.png" },
     { id: "fever", image: "fever.png" },
@@ -228,6 +229,27 @@ export class PuyoDisplay {
       case PuyoType.ClearedSun:
         posX = 10;
         posY = 8;
+        break;
+
+      case PuyoType.NuisanceRed:
+        posX = 2;
+        posY = 5;
+        break;
+      case PuyoType.NuisanceGreen:
+        posX = 4;
+        posY = 5;
+        break;
+      case PuyoType.NuisanceBlue:
+        posX = 1;
+        posY = 5;
+        break;
+      case PuyoType.NuisanceYellow:
+        posX = 3;
+        posY = 5;
+        break;
+      case PuyoType.NuisancePurple:
+        posX = 5;
+        posY = 5;
         break;
     }
 

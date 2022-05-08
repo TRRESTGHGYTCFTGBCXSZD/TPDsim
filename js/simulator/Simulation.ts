@@ -455,6 +455,31 @@ export class Simulation extends EventTarget {
                   ) {
                     // Hard Puyo
                     this.sim.field.set(checkX, checkY, PuyoType.Nuisance);
+                  } else if (
+                    this.sim.field.puyo(checkX, checkY) === PuyoType.NuisanceRed
+                  ) {
+                    // Hard Puyo
+                    this.sim.field.set(checkX, checkY, PuyoType.Red);
+                  } else if (
+                    this.sim.field.puyo(checkX, checkY) === PuyoType.NuisanceGreen
+                  ) {
+                    // Hard Puyo
+                    this.sim.field.set(checkX, checkY, PuyoType.Green);
+                  } else if (
+                    this.sim.field.puyo(checkX, checkY) === PuyoType.NuisanceBlue
+                  ) {
+                    // Hard Puyo
+                    this.sim.field.set(checkX, checkY, PuyoType.Blue);
+                  } else if (
+                    this.sim.field.puyo(checkX, checkY) === PuyoType.NuisanceYellow
+                  ) {
+                    // Hard Puyo
+                    this.sim.field.set(checkX, checkY, PuyoType.Yellow);
+                  } else if (
+                    this.sim.field.puyo(checkX, checkY) === PuyoType.NuisancePurple
+                  ) {
+                    // Hard Puyo
+                    this.sim.field.set(checkX, checkY, PuyoType.Purple);
                   }
                 }
               }
